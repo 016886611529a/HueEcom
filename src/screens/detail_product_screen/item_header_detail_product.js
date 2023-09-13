@@ -6,9 +6,10 @@ import {
   Text,
   View,
   TouchableOpacity,
+  FlatList,
 } from 'react-native';
 import {COLORS, FontFamily, FontWeight, SIZES} from '../../constants/theme';
-import {formatCurrency} from '../../helper/format_helper';
+import {formatCurrency} from '../../helper/formatCurrency';
 
 const ItemHeaderDetailProduct = ({
   productName,
@@ -26,7 +27,7 @@ const ItemHeaderDetailProduct = ({
       {sliderImage}
       <View style={{marginHorizontal: 16, marginVertical: 5}}>
         <Text style={styles.productName}>{productName}</Text>
-        <Text style={styles.price}>{formattedPrice}</Text>
+        <Text style={styles.price}>{formattedPrice}đ</Text>
         <View style={styles.muaNgay}>
           <Text style={styles.buy}>Mua ngay:</Text>
           <TouchableOpacity style={styles.svg} onPress={openLink}>
@@ -35,8 +36,24 @@ const ItemHeaderDetailProduct = ({
               resizeMode="cover"
               style={{width: 30, height: 30}}
             />
-            {/* <Text>121</Text> */}
           </TouchableOpacity>
+          {/* <FlatList // Sử dụng FlatList để lặp qua danh sách logo
+            data={logo} // Truyền danh sách logo qua prop logos
+            renderItem={({item}) => (
+              <TouchableOpacity
+                style={styles.svg}
+                onPress={() => openLink(item.link)} // Sử dụng item.link từ danh sách logo
+              >
+                <Image
+                  source={item.source} // Sử dụng item.source từ danh sách logo
+                  resizeMode="cover"
+                  style={{width: 30, height: 30}}
+                />
+              </TouchableOpacity>
+            )}
+            keyExtractor={(item, index) => index.toString()}
+            horizontal
+          /> */}
         </View>
       </View>
     </View>

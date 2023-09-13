@@ -7,5 +7,5 @@ export const formatCurrency = value => {
     currencyDisplay: 'symbol',
   });
   const formattedValue = formatter.format(value);
-  return formattedValue.replace('₫', ' đ');
+  return formattedValue.replace('₫', '');
 };

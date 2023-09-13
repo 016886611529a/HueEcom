@@ -302,7 +302,7 @@ const DetailProductScreen = ({navigation}) => {
                   });
                 }}
                 style={[styles.inforCompany, {width: screenWidth}]}>
-                <Text style={styles.title}>Thông tin doanh nghiệp</Text>
+                {/* <Text style={styles.title}>Thông tin doanh nghiệp</Text> */}
                 <View style={{flexDirection: 'row'}}>
                   <Text
                     style={{

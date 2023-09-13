@@ -8,7 +8,7 @@ import {
   FlatList,
 } from 'react-native';
 import {COLORS, FontFamily, FontWeight, SIZES} from '../../constants/theme';
-import {formatCurrency} from '../../helper/format_helper';
+import {formatCurrency} from '../../helper/formatCurrency';
 const ItemProduct = ({
   image,
   companyName,
@@ -60,7 +60,7 @@ const ItemProduct = ({
             {bought} đã bán
           </Text>
 
-          <Text style={styles.price}>{formattedPrice}</Text>
+          <Text style={styles.price}>{formattedPrice}đ</Text>
         </View>
       </View>
 
@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
     fontSize: SIZES.h4,
     fontWeight: FontWeight.fontWeightBold,
     lineHeight: 24,
-    // marginTop: 5,
+    right: 5,
     fontFamily: FontFamily.roboto,
   },
   iconContainer: {
