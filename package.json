@@ -2,6 +2,11 @@
   "name": "ecomer",
   "version": "0.0.1",
   "private": true,
+  "rnpm": {
+    "assets": [
+      ".src/assets/fonts"
+    ]
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -22,6 +27,7 @@
     "axios": "^1.4.0",
     "deprecated-react-native-prop-types": "^4.1.0",
     "intl": "^1.2.5",
+    "link": "^1.5.1",
     "moment": "^2.29.4",
     "react": "17.0.2",
     "react-lazyload": "^3.2.0",
@@ -36,8 +42,8 @@
     "react-native-read-more-text": "^1.1.2",
     "react-native-reanimated": "^3.5.1",
     "react-native-render-html": "^6.3.4",
-    "react-native-safe-area-context": "^3.3.2",
-    "react-native-screens": "software-mansion/react-native-screens#49cc61e1fa9926a671d32bbb634a2c43c999e122",
+    "react-native-safe-area-context": "^3.4.1",
+    "react-native-screens": "github:software-mansion/react-native-screens#49cc61e1fa9926a671d32bbb634a2c43c999e122",
     "react-native-select-dropdown": "^3.3.2",
     "react-native-shimmer-placeholder": "^2.0.9",
     "react-native-skeleton-placeholder": "^5.2.4",

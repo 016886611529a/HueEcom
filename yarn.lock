@@ -4263,6 +4263,11 @@ internal-slot@^1.0.5:
     has "^1.0.3"
     side-channel "^1.0.4"
 
+intl@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.npmjs.org/intl/-/intl-1.2.5.tgz"
+  integrity sha512-rK0KcPHeBFBcqsErKSpvZnrOmWOj+EmDkyJ57e90YWaQNqbcivcqmKDlHEeNprDWOsKzPsh1BfSpPQdDvclHVw==
+
 invariant@*, invariant@^2.2.4, invariant@2.2.4:
   version "2.2.4"
   resolved "https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz"
@@ -5371,6 +5376,11 @@ lines-and-columns@^1.1.6:
   version "1.2.4"
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
+
+link@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.npmjs.org/link/-/link-1.5.1.tgz"
+  integrity sha512-80GBz0JfARAPedegdwtMHJ4tiPCQNqi9UZ0womJ5YU6Zw/Jc8JRji5cnhqkxGTTFAPLs1HftUDf81qUQg0aY0Q==
 
 locate-path@^3.0.0:
   version "3.0.0"
@@ -6707,15 +6717,15 @@ react-native-render-html@^6.3.4:
     stringify-entities "^3.1.0"
     urijs "^1.19.6"
 
-react-native-safe-area-context@^3.3.2:
+react-native-safe-area-context@^3.4.1:
   version "3.4.1"
   resolved "https://registry.npmjs.org/react-native-safe-area-context/-/react-native-safe-area-context-3.4.1.tgz"
   integrity sha512-xfpVd0CiZR7oBhuwJ2HcZMehg5bjha1Ohu1XHpcT+9ykula0TgovH2BNU0R5Krzf/jBR1LMjR6VabxdlUjqxcA==
 
-react-native-screens@software-mansion/react-native-screens#49cc61e1fa9926a671d32bbb634a2c43c999e122:
+"react-native-screens@github:software-mansion/react-native-screens#49cc61e1fa9926a671d32bbb634a2c43c999e122":
   version "3.18.1"
   resolved "git+ssh://git@github.com/software-mansion/react-native-screens.git#49cc61e1fa9926a671d32bbb634a2c43c999e122"
-  integrity sha512-le/Vr2D1z2xErKxZ2TAVYZqUAiQWXaDJa2nV3u9EfeqXgiKItewwLDeO7A171D/aoLiYi8pHBkr41C6OTMcH5Q==
+  integrity sha512-Pb2TdMeRK0/UrXU4BEZE7HpocMBy68y5aBE0QPrKzubyjVtALarTHlMzEx5Z/rAjpaL4RQTcdUI/TLdLNSpqqw==
   dependencies:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"

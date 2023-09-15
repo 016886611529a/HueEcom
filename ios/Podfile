@@ -18,7 +18,7 @@ target 'ecomer' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
-
+  pod 'RNScreens', :path => '../node_modules/react-native-screens'
   target 'ecomerTests' do
     inherit! :complete
     # Pods for testing
